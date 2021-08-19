@@ -1,3 +1,5 @@
+# Shopping React project implemented using React ContextApi and useReducer
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
