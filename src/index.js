@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+//this import needs to be added when using react bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Context from './context/Context';
 ReactDOM.render(
   <React.StrictMode>
+    <Context>
     <App />
+    </Context>
   </React.StrictMode>,
   document.getElementById('root')
 );
